@@ -13,4 +13,14 @@ def list_of_lists(lista_de_listas):
     Returns:
         La lista de listas modificada según las reglas
     """
-    pass  # Reemplazar con tu implementación
+
+
+    primera_lista = lista_de_listas[0][:2]
+
+    segunda_lista = lista_de_listas[1][1:4]
+
+    tercera_lista = lista_de_listas[2][-2:]
+
+    lista_nueva = [primera_lista, segunda_lista, tercera_lista] 
+
+    return lista_nueva 
